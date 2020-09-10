@@ -22,6 +22,8 @@ const msh1 = {
     this.IPKumulatif = total / 4;
     },
 };
+delete msh1.namaBelakang;
+console.log(mhs1);
 
 // kata kunci new
 // const mhs2 = new Object();
@@ -38,3 +40,26 @@ const msh1 = {
 // console.log(mhs1.IPSemester[2]);
 // mhs1.hitungIPK();
 // console.log(mhs1);
+
+// Array Object
+const mahasiswa = [
+    {
+        nim: "001",
+        namaDepan: "John",
+        namaBelakang: "Doe",
+    },
+    {
+        nim: "002",
+        namaDepan: "Jane",
+        namaBelakang: "Lau",
+    },
+    {
+        nim: "003",
+        namaDepan: "Stenly",
+        namaBelakang: "Adam",
+    },
+];
+
+mahasiswa.forEach(function [el]{
+    console.log[el];
+});
