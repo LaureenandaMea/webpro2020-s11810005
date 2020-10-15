@@ -86,7 +86,7 @@
 //Destrukturisasi objek bertingkat
 let murid = {
     kelas: "11",
-    nama: ["dipta", "lauree", "levin"],
+    nama: ["melinda", "lauree", "levin"],
     prestasi: {
       olahraga: "juara 1",
       akademik: "juara 2"
