@@ -27,4 +27,4 @@ const Card = ({name, username, email, phone}) =>{
     )
 }
 
-export default 
+export default Card;
